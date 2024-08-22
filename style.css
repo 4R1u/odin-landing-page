@@ -10,11 +10,19 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
+    padding: 20px;
+}
+
+.header-content {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 950px;
 }
 
 .links {
@@ -22,6 +30,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
 
 .links a {

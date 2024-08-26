@@ -22,7 +22,7 @@ body {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    flex: 0 1 950px;
+    flex: 0 1 1000px;
 }
 
 .links {
@@ -45,6 +45,8 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 100px;
 }
 
 .hero-text {
@@ -62,10 +64,12 @@ body {
 .signup-1, .signup-2 {
     background-color: #3882F6;
     border-radius: 5px;
-    width: 85px;
+    width: 125px;
+    height: 40px;
     padding: 2px;
     font-weight: bolder;
     color: #f9faf8;
+    font-size: 16px;
 }
 
 .signup-1 {
@@ -95,6 +99,7 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin: 50px;
 }
 
 .illustrations {
@@ -102,11 +107,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: 0 50px 100px ;
 }
 
 .illustration {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 0 1 300px;
 }
 

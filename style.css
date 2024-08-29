@@ -76,10 +76,6 @@ body {
     border: 0;
 }
 
-.signup-2 {
-    border-color: #ffffff;
-}
-
 .img-placeholder {
     background-color: #6d747d;
     height: 200px;
@@ -163,14 +159,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .banner {
     background-color: #3882f6;
     display: flex;
     color: #f9faf8;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 25px 75px;
+    border-radius: 10px;
+    flex: 0 1 700px;
 }
 
 .imperative {
@@ -178,7 +178,7 @@ body {
 }
 
 .signup-2 {
-    border-color: white;
+    border: 2px solid white;
 }
 
 .footer {
